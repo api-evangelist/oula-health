@@ -1,9 +1,25 @@
 aid: oula-health
 name: Oula Health
-description: 'Oula Health is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Oula Health (Oula) is a modern maternity and women''s health provider operating
+  collaborative-care clinics in New York and Connecticut. Oula pairs OBGYNs with certified
+  nurse midwives to deliver comprehensive support before, during, and after pregnancy —
+  including preconception planning, prenatal and postpartum care, gynecology, and miscarriage
+  care — and partners with health systems, employers, and payers to extend that model. It
+  is a patient-facing healthcare provider and does not currently publish a public developer
+  platform, API, or technical integration surface.'
 url: https://raw.githubusercontent.com/api-evangelist/oula-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://oulahealth.com/wp-content/themes/oula-1-75/images/favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Maternity Care
+- Women's Health
+- Healthcare Provider
+- Pregnancy
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,18 @@ maintainers:
 common:
 - type: Website
   url: https://oulahealth.com
+- type: Blog
+  url: https://oulahealth.com/blog/
+- type: Support
+  url: https://oulahealth.com/faq/
+- type: PrivacyPolicy
+  url: https://oulahealth.com/privacy/
+- type: TermsOfService
+  url: https://oulahealth.com/terms-of-use/
+- type: DomainSecurity
+  url: security/oula-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
